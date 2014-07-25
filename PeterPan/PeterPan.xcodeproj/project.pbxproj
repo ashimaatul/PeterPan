@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66F4DAF1982F29400A3B425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DAE1982F29400A3B425 /* Foundation.framework */; };
+		F66F4DB11982F29400A3B425 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DB01982F29400A3B425 /* CoreGraphics.framework */; };
+		F66F4DB31982F29400A3B425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DB21982F29400A3B425 /* UIKit.framework */; };
+		F66F4DB51982F29400A3B425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DB41982F29400A3B425 /* CoreData.framework */; };
+		F66F4DBB1982F29400A3B425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DB91982F29400A3B425 /* InfoPlist.strings */; };
+		F66F4DBD1982F29400A3B425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DBC1982F29400A3B425 /* main.m */; };
+		F66F4DC11982F29400A3B425 /* PeterPanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DC01982F29400A3B425 /* PeterPanAppDelegate.m */; };
+		F66F4DC41982F29400A3B425 /* PeterPan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DC21982F29400A3B425 /* PeterPan.xcdatamodeld */; };
+		F66F4DC61982F29400A3B425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DC51982F29400A3B425 /* Images.xcassets */; };
+		F66F4DCD1982F29400A3B425 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DCC1982F29400A3B425 /* XCTest.framework */; };
+		F66F4DCE1982F29400A3B425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DAE1982F29400A3B425 /* Foundation.framework */; };
+		F66F4DCF1982F29400A3B425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DB21982F29400A3B425 /* UIKit.framework */; };
+		F66F4DD01982F29400A3B425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DB41982F29400A3B425 /* CoreData.framework */; };
+		F66F4DD81982F29400A3B425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DD61982F29400A3B425 /* InfoPlist.strings */; };
+		F66F4DDA1982F29400A3B425 /* PeterPanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DD91982F29400A3B425 /* PeterPanTests.m */; };
+		F66F4DE71982F35A00A3B425 /* bikes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DE61982F35A00A3B425 /* bikes.jpg */; };
+		F66F4DEB1982F36200A3B425 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DEA1982F36200A3B425 /* PanViewController.m */; };
+		F66F4DF01982F36900A3B425 /* PanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DEE1982F36900A3B425 /* PanView.m */; };
+		F66F4DF11982F36900A3B425 /* PanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DEF1982F36900A3B425 /* PanView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F66F4DD11982F29400A3B425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66F4DA31982F29400A3B425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66F4DAA1982F29400A3B425;
+			remoteInfo = PeterPan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F66F4DAB1982F29400A3B425 /* PeterPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeterPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66F4DAE1982F29400A3B425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F66F4DB01982F29400A3B425 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F66F4DB21982F29400A3B425 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F66F4DB41982F29400A3B425 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F66F4DB81982F29400A3B425 /* PeterPan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeterPan-Info.plist"; sourceTree = "<group>"; };
+		F66F4DBA1982F29400A3B425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F66F4DBC1982F29400A3B425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F66F4DBE1982F29400A3B425 /* PeterPan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeterPan-Prefix.pch"; sourceTree = "<group>"; };
+		F66F4DBF1982F29400A3B425 /* PeterPanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeterPanAppDelegate.h; sourceTree = "<group>"; };
+		F66F4DC01982F29400A3B425 /* PeterPanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeterPanAppDelegate.m; sourceTree = "<group>"; };
+		F66F4DC31982F29400A3B425 /* PeterPan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeterPan.xcdatamodel; sourceTree = "<group>"; };
+		F66F4DC51982F29400A3B425 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66F4DCB1982F29400A3B425 /* PeterPanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeterPanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66F4DCC1982F29400A3B425 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F66F4DD51982F29400A3B425 /* PeterPanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeterPanTests-Info.plist"; sourceTree = "<group>"; };
+		F66F4DD71982F29400A3B425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F66F4DD91982F29400A3B425 /* PeterPanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeterPanTests.m; sourceTree = "<group>"; };
+		F66F4DE61982F35A00A3B425 /* bikes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikes.jpg; sourceTree = "<group>"; };
+		F66F4DE91982F36200A3B425 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		F66F4DEA1982F36200A3B425 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		F66F4DED1982F36900A3B425 /* PanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanView.h; sourceTree = "<group>"; };
+		F66F4DEE1982F36900A3B425 /* PanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanView.m; sourceTree = "<group>"; };
+		F66F4DEF1982F36900A3B425 /* PanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66F4DA81982F29400A3B425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F4DB11982F29400A3B425 /* CoreGraphics.framework in Frameworks */,
+				F66F4DB51982F29400A3B425 /* CoreData.framework in Frameworks */,
+				F66F4DB31982F29400A3B425 /* UIKit.framework in Frameworks */,
+				F66F4DAF1982F29400A3B425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66F4DC81982F29400A3B425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F4DCD1982F29400A3B425 /* XCTest.framework in Frameworks */,
+				F66F4DD01982F29400A3B425 /* CoreData.framework in Frameworks */,
+				F66F4DCF1982F29400A3B425 /* UIKit.framework in Frameworks */,
+				F66F4DCE1982F29400A3B425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F66F4DA21982F29400A3B425 = {
+			isa = PBXGroup;
+			children = (
+				F66F4DB61982F29400A3B425 /* PeterPan */,
+				F66F4DD31982F29400A3B425 /* PeterPanTests */,
+				F66F4DAD1982F29400A3B425 /* Frameworks */,
+				F66F4DAC1982F29400A3B425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66F4DAC1982F29400A3B425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DAB1982F29400A3B425 /* PeterPan.app */,
+				F66F4DCB1982F29400A3B425 /* PeterPanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66F4DAD1982F29400A3B425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DAE1982F29400A3B425 /* Foundation.framework */,
+				F66F4DB01982F29400A3B425 /* CoreGraphics.framework */,
+				F66F4DB21982F29400A3B425 /* UIKit.framework */,
+				F66F4DB41982F29400A3B425 /* CoreData.framework */,
+				F66F4DCC1982F29400A3B425 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66F4DB61982F29400A3B425 /* PeterPan */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DEC1982F36900A3B425 /* Views */,
+				F66F4DE81982F36200A3B425 /* ViewControllers */,
+				F66F4DE51982F35A00A3B425 /* Assets */,
+				F66F4DBF1982F29400A3B425 /* PeterPanAppDelegate.h */,
+				F66F4DC01982F29400A3B425 /* PeterPanAppDelegate.m */,
+				F66F4DC51982F29400A3B425 /* Images.xcassets */,
+				F66F4DC21982F29400A3B425 /* PeterPan.xcdatamodeld */,
+				F66F4DB71982F29400A3B425 /* Supporting Files */,
+			);
+			path = PeterPan;
+			sourceTree = "<group>";
+		};
+		F66F4DB71982F29400A3B425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DB81982F29400A3B425 /* PeterPan-Info.plist */,
+				F66F4DB91982F29400A3B425 /* InfoPlist.strings */,
+				F66F4DBC1982F29400A3B425 /* main.m */,
+				F66F4DBE1982F29400A3B425 /* PeterPan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66F4DD31982F29400A3B425 /* PeterPanTests */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DD91982F29400A3B425 /* PeterPanTests.m */,
+				F66F4DD41982F29400A3B425 /* Supporting Files */,
+			);
+			path = PeterPanTests;
+			sourceTree = "<group>";
+		};
+		F66F4DD41982F29400A3B425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DD51982F29400A3B425 /* PeterPanTests-Info.plist */,
+				F66F4DD61982F29400A3B425 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66F4DE51982F35A00A3B425 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DE61982F35A00A3B425 /* bikes.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F66F4DE81982F36200A3B425 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DE91982F36200A3B425 /* PanViewController.h */,
+				F66F4DEA1982F36200A3B425 /* PanViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F66F4DEC1982F36900A3B425 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F66F4DED1982F36900A3B425 /* PanView.h */,
+				F66F4DEE1982F36900A3B425 /* PanView.m */,
+				F66F4DEF1982F36900A3B425 /* PanView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66F4DAA1982F29400A3B425 /* PeterPan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66F4DDD1982F29400A3B425 /* Build configuration list for PBXNativeTarget "PeterPan" */;
+			buildPhases = (
+				F66F4DA71982F29400A3B425 /* Sources */,
+				F66F4DA81982F29400A3B425 /* Frameworks */,
+				F66F4DA91982F29400A3B425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeterPan;
+			productName = PeterPan;
+			productReference = F66F4DAB1982F29400A3B425 /* PeterPan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F66F4DCA1982F29400A3B425 /* PeterPanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66F4DE01982F29400A3B425 /* Build configuration list for PBXNativeTarget "PeterPanTests" */;
+			buildPhases = (
+				F66F4DC71982F29400A3B425 /* Sources */,
+				F66F4DC81982F29400A3B425 /* Frameworks */,
+				F66F4DC91982F29400A3B425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66F4DD21982F29400A3B425 /* PBXTargetDependency */,
+			);
+			name = PeterPanTests;
+			productName = PeterPanTests;
+			productReference = F66F4DCB1982F29400A3B425 /* PeterPanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66F4DA31982F29400A3B425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PeterPan;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Taneja;
+				TargetAttributes = {
+					F66F4DCA1982F29400A3B425 = {
+						TestTargetID = F66F4DAA1982F29400A3B425;
+					};
+				};
+			};
+			buildConfigurationList = F66F4DA61982F29400A3B425 /* Build configuration list for PBXProject "PeterPan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F66F4DA21982F29400A3B425;
+			productRefGroup = F66F4DAC1982F29400A3B425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66F4DAA1982F29400A3B425 /* PeterPan */,
+				F66F4DCA1982F29400A3B425 /* PeterPanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66F4DA91982F29400A3B425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F4DBB1982F29400A3B425 /* InfoPlist.strings in Resources */,
+				F66F4DC61982F29400A3B425 /* Images.xcassets in Resources */,
+				F66F4DF11982F36900A3B425 /* PanView.xib in Resources */,
+				F66F4DE71982F35A00A3B425 /* bikes.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66F4DC91982F29400A3B425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F4DD81982F29400A3B425 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66F4DA71982F29400A3B425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F4DEB1982F36200A3B425 /* PanViewController.m in Sources */,
+				F66F4DBD1982F29400A3B425 /* main.m in Sources */,
+				F66F4DC41982F29400A3B425 /* PeterPan.xcdatamodeld in Sources */,
+				F66F4DC11982F29400A3B425 /* PeterPanAppDelegate.m in Sources */,
+				F66F4DF01982F36900A3B425 /* PanView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66F4DC71982F29400A3B425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F4DDA1982F29400A3B425 /* PeterPanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F66F4DD21982F29400A3B425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66F4DAA1982F29400A3B425 /* PeterPan */;
+			targetProxy = F66F4DD11982F29400A3B425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F66F4DB91982F29400A3B425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66F4DBA1982F29400A3B425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F66F4DD61982F29400A3B425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66F4DD71982F29400A3B425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66F4DDB1982F29400A3B425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F66F4DDC1982F29400A3B425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66F4DDE1982F29400A3B425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeterPan/PeterPan-Prefix.pch";
+				INFOPLIST_FILE = "PeterPan/PeterPan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F66F4DDF1982F29400A3B425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeterPan/PeterPan-Prefix.pch";
+				INFOPLIST_FILE = "PeterPan/PeterPan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F66F4DE11982F29400A3B425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeterPan.app/PeterPan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeterPan/PeterPan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PeterPanTests/PeterPanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F66F4DE21982F29400A3B425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeterPan.app/PeterPan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeterPan/PeterPan-Prefix.pch";
+				INFOPLIST_FILE = "PeterPanTests/PeterPanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66F4DA61982F29400A3B425 /* Build configuration list for PBXProject "PeterPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66F4DDB1982F29400A3B425 /* Debug */,
+				F66F4DDC1982F29400A3B425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66F4DDD1982F29400A3B425 /* Build configuration list for PBXNativeTarget "PeterPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66F4DDE1982F29400A3B425 /* Debug */,
+				F66F4DDF1982F29400A3B425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F66F4DE01982F29400A3B425 /* Build configuration list for PBXNativeTarget "PeterPanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66F4DE11982F29400A3B425 /* Debug */,
+				F66F4DE21982F29400A3B425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F66F4DC21982F29400A3B425 /* PeterPan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F66F4DC31982F29400A3B425 /* PeterPan.xcdatamodel */,
+			);
+			currentVersion = F66F4DC31982F29400A3B425 /* PeterPan.xcdatamodel */;
+			path = PeterPan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F66F4DA31982F29400A3B425 /* Project object */;
+}
