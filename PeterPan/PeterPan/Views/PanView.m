@@ -7,25 +7,65 @@
 //
 
 #import "PanView.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation PanView
+@synthesize panImage, panDuration;
 
-- (id)initWithFrame:(CGRect)frame
+-(id) initWithFrame:(CGRect)aFrame
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
+    if((self = [super initWithFrame:aFrame])!=nil)
+    {
+        [self setupPanImageView];
     }
+    
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void) awakeFromNib
 {
-    // Drawing code
+    [self setupPanImageView];
 }
-*/
+
+-(void) dealloc
+{
+    if(_panImageView != nil)
+    {
+        [_panImageView removeFromSuperview];
+        _panImageView = nil;
+    }
+}
+
+-(void) setupPanImageView
+{
+    self.clipsToBounds = YES;
+    
+    _panImageView = [[UIImageView alloc] initWithFrame:self.bounds];
+    _panImageView.contentMode = UIViewContentModeScaleAspectFill;
+    
+    [self addSubview:_panImageView];
+}
+
+-(void) animateImage
+{
+    //TODO: need to set correct positioning for paning
+    if(self.panImage==nil) return;
+    
+    CGRect zoomOutFrame = CGRectInset(self.bounds,
+                        -(self.bounds.size.width * .2),
+                        -(self.bounds.size.height * .2));
+    
+    _panImageView.frame = zoomOutFrame;
+    _panImageView.image = self.panImage;
+    
+    [UIView animateWithDuration:self.panDuration
+                          delay:0
+                        options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionTransitionNone
+                     animations: ^{
+                         _panImageView.bounds = self.bounds;
+                     }
+                     completion:nil];
+}
 
 @end
+

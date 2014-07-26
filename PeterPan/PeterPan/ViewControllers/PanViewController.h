@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PanViewController : UIViewController
+@class PanView;
 
+@interface PanViewController : UIViewController
+@property (strong, nonatomic) IBOutlet PanView *panView;
 @end

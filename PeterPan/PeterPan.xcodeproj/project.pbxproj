@@ -22,10 +22,10 @@
 		F66F4DD01982F29400A3B425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66F4DB41982F29400A3B425 /* CoreData.framework */; };
 		F66F4DD81982F29400A3B425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DD61982F29400A3B425 /* InfoPlist.strings */; };
 		F66F4DDA1982F29400A3B425 /* PeterPanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DD91982F29400A3B425 /* PeterPanTests.m */; };
-		F66F4DE71982F35A00A3B425 /* bikes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DE61982F35A00A3B425 /* bikes.jpg */; };
-		F66F4DEB1982F36200A3B425 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DEA1982F36200A3B425 /* PanViewController.m */; };
-		F66F4DF01982F36900A3B425 /* PanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DEE1982F36900A3B425 /* PanView.m */; };
-		F66F4DF11982F36900A3B425 /* PanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DEF1982F36900A3B425 /* PanView.xib */; };
+		F66F4E0019831A5F00A3B425 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4DFE19831A5F00A3B425 /* PanViewController.m */; };
+		F66F4E0119831A5F00A3B425 /* PanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66F4DFF19831A5F00A3B425 /* PanViewController.xib */; };
+		F66F4E0419831AC100A3B425 /* PanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F4E0319831AC100A3B425 /* PanView.m */; };
+		F66F4E061984062800A3B425 /* Ansh_Thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F66F4E051984062800A3B425 /* Ansh_Thomas.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +57,12 @@
 		F66F4DD51982F29400A3B425 /* PeterPanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeterPanTests-Info.plist"; sourceTree = "<group>"; };
 		F66F4DD71982F29400A3B425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F66F4DD91982F29400A3B425 /* PeterPanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeterPanTests.m; sourceTree = "<group>"; };
-		F66F4DE61982F35A00A3B425 /* bikes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikes.jpg; sourceTree = "<group>"; };
-		F66F4DE91982F36200A3B425 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
-		F66F4DEA1982F36200A3B425 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
-		F66F4DED1982F36900A3B425 /* PanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanView.h; sourceTree = "<group>"; };
-		F66F4DEE1982F36900A3B425 /* PanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanView.m; sourceTree = "<group>"; };
-		F66F4DEF1982F36900A3B425 /* PanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanView.xib; sourceTree = "<group>"; };
+		F66F4DFD19831A5F00A3B425 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		F66F4DFE19831A5F00A3B425 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		F66F4DFF19831A5F00A3B425 /* PanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanViewController.xib; sourceTree = "<group>"; };
+		F66F4E0219831AC100A3B425 /* PanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanView.h; sourceTree = "<group>"; };
+		F66F4E0319831AC100A3B425 /* PanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanView.m; sourceTree = "<group>"; };
+		F66F4E051984062800A3B425 /* Ansh_Thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ansh_Thomas.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +169,7 @@
 		F66F4DE51982F35A00A3B425 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				F66F4DE61982F35A00A3B425 /* bikes.jpg */,
+				F66F4E051984062800A3B425 /* Ansh_Thomas.jpg */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -177,8 +177,9 @@
 		F66F4DE81982F36200A3B425 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F66F4DE91982F36200A3B425 /* PanViewController.h */,
-				F66F4DEA1982F36200A3B425 /* PanViewController.m */,
+				F66F4DFD19831A5F00A3B425 /* PanViewController.h */,
+				F66F4DFE19831A5F00A3B425 /* PanViewController.m */,
+				F66F4DFF19831A5F00A3B425 /* PanViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -186,9 +187,8 @@
 		F66F4DEC1982F36900A3B425 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F66F4DED1982F36900A3B425 /* PanView.h */,
-				F66F4DEE1982F36900A3B425 /* PanView.m */,
-				F66F4DEF1982F36900A3B425 /* PanView.xib */,
+				F66F4E0219831AC100A3B425 /* PanView.h */,
+				F66F4E0319831AC100A3B425 /* PanView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,10 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66F4E061984062800A3B425 /* Ansh_Thomas.jpg in Resources */,
+				F66F4E0119831A5F00A3B425 /* PanViewController.xib in Resources */,
 				F66F4DBB1982F29400A3B425 /* InfoPlist.strings in Resources */,
 				F66F4DC61982F29400A3B425 /* Images.xcassets in Resources */,
-				F66F4DF11982F36900A3B425 /* PanView.xib in Resources */,
-				F66F4DE71982F35A00A3B425 /* bikes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66F4DEB1982F36200A3B425 /* PanViewController.m in Sources */,
+				F66F4E0019831A5F00A3B425 /* PanViewController.m in Sources */,
 				F66F4DBD1982F29400A3B425 /* main.m in Sources */,
 				F66F4DC41982F29400A3B425 /* PeterPan.xcdatamodeld in Sources */,
 				F66F4DC11982F29400A3B425 /* PeterPanAppDelegate.m in Sources */,
-				F66F4DF01982F36900A3B425 /* PanView.m in Sources */,
+				F66F4E0419831AC100A3B425 /* PanView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "PanViewController.h"
+#import "PanView.h"
 
 @interface PanViewController ()
 
@@ -14,36 +15,40 @@
 
 @implementation PanViewController
 
+@synthesize panView;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    // Call the init method implemented by the superclass
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
+    
+    // Return the address of the new object
     return self;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UIImage* image = [UIImage imageNamed:@"Ansh_Thomas.jpg"];
+    self.panView.panImage = image;
+    panView.panDuration = 5.0f;
+    [panView animateImage];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewDidUnload
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self setPanView:nil];
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
-*/
 
+- (IBAction)animate:(id)sender {
+    [panView animateImage];
+}
 @end

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PanView : UIImageView
+@interface PanView : UIView
+{
+    UIImageView* _panImageView;
+}
+@property(nonatomic, copy) UIImage* panImage;
+@property(nonatomic) int panDuration;
+-(void) animateImage;
 
 @end
