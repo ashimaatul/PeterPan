@@ -14,6 +14,7 @@
 }
 @property(nonatomic, copy) UIImage* panImage;
 @property(nonatomic) int panDuration;
+@property CGPoint focusPoint;
 -(void) animateImage;
 
 @end
